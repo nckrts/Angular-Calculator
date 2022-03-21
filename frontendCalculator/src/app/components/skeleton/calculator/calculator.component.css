@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'digital';
+    src: url('src/app/fonts/digital-7 (italic).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'digital';
+    background-image: linear-gradient( to right, white, gray);
+    height: 100vh;
+    color: white;
+    text-align: center;
+
+
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: gray;
+    font-family: 'digital';
+}
+.button:hover{
+    background-color: black;
+}
+#display{
+    background-color: white;
+    width: 232px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: groove;
+    font-family: 'digital';
+}
+div{
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    border-style: groove;
+    border-radius: 15px;
+    border-color: gray;
+}

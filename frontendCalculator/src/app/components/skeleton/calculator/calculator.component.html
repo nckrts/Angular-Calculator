@@ -1,0 +1,39 @@
+<title>Calculator</title>
+<body>
+<div >
+    <h1>Calculator</h1>
+    <p id="display">{{ displayText }}</p>
+    <table>
+        <tr>
+            <td colspan="2"><button class="button" style="width: 120px;" (click)="reset()">ON/C</button></td>
+            <td><button class="button" (click)="expecialsimbol('%')">%</button></td>
+            <td><button class="button" (click)="expecialsimbol('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" (click)="setDisplayTextValue('7')">7</button></td>
+            <td><button class="button" (click)="setDisplayTextValue('8')">8</button></td>
+            <td><button class="button" (click)="setDisplayTextValue('9')">9</button></td>
+            <td><button class="button" (click)="expecialsimbol('*')">X</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" (click)="setDisplayTextValue('4')">4</button></td>
+            <td><button class="button" (click)="setDisplayTextValue('5')">5</button></td>
+            <td><button class="button" (click)="setDisplayTextValue('6')">6</button></td>
+            <td><button class="button" (click)="expecialsimbol('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" (click)="setDisplayTextValue('1')">1</button></td>
+            <td><button class="button" (click)="setDisplayTextValue('2')">2</button></td>
+            <td><button class="button" (click)="setDisplayTextValue('3')">3</button></td>
+            <td><button class="button" (click)="expecialsimbol('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="button" (click)="setDisplayTextValue('0')">0</button></td>
+            <td><button class="button" (click)="setDisplayTextValue('.')">.</button></td>
+            <td><button class="button" (click)="calc()">=</button></td>
+            <td><button class="button" (click)="expecialsimbol('√')">√</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+
